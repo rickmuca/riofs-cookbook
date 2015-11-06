@@ -1,0 +1,6 @@
+{
+  "id": "deploy_key",
+  "bucket": "test_bucket",
+  "access_key_id": "ABCDEFGHIJKLMNOPQRST",
+  "secret_access_key": "abcdefghijklmnopqrstuvwxyz01234567890ABC"
+}
