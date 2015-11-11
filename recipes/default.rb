@@ -99,6 +99,13 @@ template "/usr/local/etc/riofs/riofs.conf.xml" do
             :group_id => riofs_group_id)
 end
 
+template "/etc/fuse.conf" do
+  source "fuse.conf.erb"
+  owner "root"
+  group "root"
+  mode 0644
+end
+
 directory bucket[:path] do
   owner     "ec2-user"
   group     "ec2-user"
